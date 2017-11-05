@@ -1,0 +1,75 @@
+﻿body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin:0;
+    padding:0;
+    background:url("https://www.churchmotiongraphics.com/wp-content/uploads/2016/06/Under-The-Sea.jpg");
+    -moz-background-size: cover;
+    -o-background-size: cover;
+   
+}
+
+header {
+  padding: 0px 0;
+
+}
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('https://static.pexels.com/photos/101063/pexels-photo-101063.jpeg');
+  background-size: cover;
+  color: #ffffff;
+  height: 200px;
+  
+   padding:1px;
+   border:1px solid #021a40;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+nav {border-style: double;}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #6CA6CD;
+
+}
+
+
+header p, header a {
+  padding: 0 20px;
+  margin: 0;
+}
+
+nav p, nav a{
+    margin: 0;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #6CA6CD;
+    color:white;
+    padding:1px;
+
+
+}
+
+.jumbotron {
+  font-family: 'Papyrus', sans-serif;
+  background-color: white;
+
+}
+.col-sm-4{
+  font-family: 'Papyrus', sans-serif;
+  text-align: center;
+  margin: 0 0 30px;
+  font-size: 20px;
+}
+h1 {
+    color: black;
+    text-shadow: 3px 3px 3px 
+black;
+}
+h2 {
+    color: black;
+
+}

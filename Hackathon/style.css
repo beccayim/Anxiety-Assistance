@@ -1,0 +1,87 @@
+﻿body {
+    color: #222;
+    text-align:center;
+    margin: 0px;
+    padding: 0px;
+    background: url(https://www.churchmotiongraphics.com/wp-content/uploads/2016/06/Under-The-Sea.jpg) no-repeat center center fixed; 
+ }
+
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #6CA6CD;
+
+}
+nav p, nav a{
+    margin: 0;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color:white;
+     padding:1px;
+  
+}
+input { font:12px arial; }
+  nav {border-style: double;}
+a {
+    color:#0000FF;
+    text-decoration:none; }
+  
+    a:hover { text-decoration:underline; }
+  
+#wrapper, #loginform {
+    margin:0 auto;
+    padding-bottom:25px;
+    width:504px;
+    border:1px solid #000000; 
+    background-color: white;
+  }
+  
+#loginform { padding-top:18px; }
+  
+    #loginform p { margin: 5px; }
+  
+#chatbox {
+    text-align:left;
+    margin:0 auto;
+    margin-bottom:25px;
+    padding:10px;
+    background:#fff;
+    height:270px;
+    width:430px;
+    border:1px solid #000000;
+    overflow:auto; }
+  
+#usermsg {
+    width:395px;
+    border:1px solid #ACD8F0; }
+  
+#submit { width: 60px; }
+  
+.error { color: #ff0000; }
+  
+#menu { padding:12.5px 25px 12.5px 25px; }
+  
+.welcome { float:left; }
+  
+.logout { float:right; }
+  
+.msgln { margin:0 0 2px 0; }
+
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 3em;
+  margin: .2em .5em;
+  color: white;
+}
+body {
+    height: 100%;
+}
+h1 {
+    
+    color: black;
+    text-shadow: 2px 3px 3px black;
+}
